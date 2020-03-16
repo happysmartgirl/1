@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<style type='text/css'>
+		*{
+			margin:0;
+			padding:0;
+		}
+		form{
+			width:80%;
+			margin:0 auto;
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<!-- 文本框 -->
+		<div class="form-group">
+			<label for="">文本框</label>
+			<input type="text" class='form-control'>
+		</div>
+		<!-- 求助 -->
+		<div class="form-group">
+			<label for="">求助</label>
+			<input type="text" class='form-control'>
+			<p class='help-block'>help!help~~</p>
+		</div>
+
+		<!-- 单选按钮 -->
+		<div class="form-group">
+		<label for="">单选按钮</label>
+			<input type="radio">
+		</div>
+		<!-- 多选框 -->
+		<div class="form-group">
+			<label for="">多选按钮</label>
+			<input type="checkbox">
+		</div>
+		<!-- 按钮 -->
+		<div class="form-group">
+			<button class="btn btn-default">按钮</button>
+			<button class="btn btn-info">按钮</button>
+			<button class="btn btn-success">按钮</button>
+			<button class="btn btn-warning">按钮</button>
+			<button class="btn btn-primary">按钮</button>
+			<button class="btn btn-link">按钮</button>
+			<button class="btn btn-block" disabled="true">按钮</button>
+		</div>
+		<!-- 输入框组 -->
+		<div class="form-group">
+			<label for="">输入框组</label>
+			<div class="input-group">
+				<input type="text" class='form-control'>
+				<span class='input-group-addon'>.00</span>
+			</div>
+		</div>
+		<!-- 下拉列表 -->
+		<div class="form-group">
+			<select name="" id="" class='form-control'>
+				<option value="">北京</option>
+				<option value="">上海</option>
+				<option value="">广州</option>
+				<option value="">深圳</option>
+			</select>
+		</div>
+		<!-- 校验状态 -->
+		<div class="form-group has-success has-feedback">
+			<label for="">校验状态</label>
+			<input type="text" class='form-control'>
+			<span class='help-block'>help~</span>
+		</div>
+	</form>
+</body>
+<script type='text/javascript' src='jquery-2.1.1.min.js'></script>
+<script type='text/javascript' src='js/bootstrap.js'></script>
+<script type='text/javascript'>
+	
+</script>
+</html>
